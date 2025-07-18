@@ -1,0 +1,19 @@
+{
+  "embeddings": {
+    "model_name": "shihab17/bangla-sentence-transformer",
+    "db_path": "./vectorstore"
+  },
+  "llm": {
+    "model_name": "microsoft/DialoGPT-medium",
+    "max_length": 512,
+    "temperature": 0.7
+  },
+  "data": {
+    "chunk_size": 500,
+    "chunk_overlap": 50
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000
+  }
+}
